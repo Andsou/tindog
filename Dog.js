@@ -1,1 +1,3 @@
-// Create the Dog class here
+class Dog {
+  constructor() {}
+}
