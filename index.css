@@ -11,3 +11,15 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
+
+/* HEADER */
+.dog-paw-icon {
+  width: 8.4rem;
+  height: 4.2rem;
+}
+
+/* UTILITY CLASSES */
+.header-icon {
+  width: 3.4rem;
+  height: 3.4rem;
+}

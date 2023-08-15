@@ -1,3 +1,9 @@
+import dogs from "./data.js";
+
 class Dog {
-  constructor() {}
+  constructor(data) {
+    Object.assign(this, data);
+  }
 }
+
+export default Dog;

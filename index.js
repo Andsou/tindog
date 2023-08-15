@@ -1,1 +1,1 @@
-import dogs from "./Dog.js";
+import Dog from "./Dog.js";
