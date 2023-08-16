@@ -8,8 +8,11 @@ class Dog {
   getDogHtml() {
     return `
       <div class="dog flex-container" style="background-image: url(${this.avatar})">
-        <h1 class="dog-title">${this.name}, ${this.age}</h1>
-        <p>${this.bio}</p>
+      <img class="like-dislike" id="like-dislike" src="" />
+        <div
+          <h1 class="dog-title">${this.name}, ${this.age}</h1>
+          <p>${this.bio}</p>
+        </div>
       </div>
     `;
   }
