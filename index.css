@@ -12,14 +12,75 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* HEADER */
-.dog-paw-icon {
-  width: 8.4rem;
-  height: 4.2rem;
+p {
+  margin: 0;
+}
+
+.content {
+  width: 55rem;
+  margin: 0 auto;
+  background: linear-gradient(180deg, #fff 0%, #f6f7fb 100%);
 }
 
 /* UTILITY CLASSES */
 .header-icon {
   width: 3.4rem;
   height: 3.4rem;
+}
+
+.flex-container {
+  display: flex;
+}
+
+/* HEADER */
+.dog-paw-icon {
+  width: 8.4rem;
+  height: 4.2rem;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* DOG CONTENT */
+.dog {
+  height: 75.2rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0 0.8rem;
+
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.dog-title {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: #f8f8f8;
+  margin: 0;
+}
+
+.dog p {
+  font-size: 2.4rem;
+  color: #b7b7b7;
+}
+
+/* FOOTER */
+.footer {
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+.footer-icon {
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #fff;
+  margin: 2.5rem 0;
+}
+
+@media (min-width: 600px) {
+  .content {
+    margin-top: 5rem;
+  }
 }
